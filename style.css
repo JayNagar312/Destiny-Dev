@@ -1,0 +1,291 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    height: 100%;
+    margin: 0;
+    overflow-x: hidden;
+
+    html {
+        scroll-behavior: smooth;
+        /* CSS for smooth scroll */
+    }
+}
+
+.bg {
+    background-image: url("/Images/heroimage.jpg");
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content {
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 1rem;
+    /* Black w/ opacity */
+    padding: 5rem;
+    border-radius: 10px;
+    max-width: 600px;
+    height: 97vh;
+    margin: auto;
+    /* margin-top: 20%; */
+}
+
+h1,
+p {
+    margin: 0;
+    padding: 10px;
+}
+
+h1 {
+    font-size: 4em;
+}
+
+p {
+    font-size: 1.5em;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-size: 1.5em;
+}
+
+.navbar-brand .logo {
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    margin-right: 10px;
+}
+
+#nav {
+    position: fixed;
+    width: 100%;
+}
+
+.about-section {
+    padding: 60px;
+    background-color: #f7f7f7;
+}
+
+.about-content {
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+}
+
+.about-title {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.about-text {
+    font-size: 1.2em;
+    margin-bottom: 40px;
+    line-height: 1.6;
+}
+
+.about-values {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.value-item {
+    max-width: 200px;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.value-icon {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    color: #007bff;
+}
+
+.value-title {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 1030;
+}
+
+
+.card-img-top {
+    object-fit: cover;
+    height: 200px;
+    /* Adjust based on your preference */
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.card-body {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.more-details {
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    font-size: 1.2em;
+    color: #707a84;
+    position: relative;
+    transition: color 0.3s;
+    margin: 0 0 4rem 1rem;
+}
+
+.more-details:hover {
+    color: #24282b;
+}
+
+.more-details::after {
+    content: '➔';
+    display: inline-block;
+    margin-left: 10px;
+    transition: transform 0.3s ease;
+}
+
+.more-details:hover::after {
+    transform: translateX(10px);
+}
+
+.team-section {
+    padding: 60px 0;
+    background-color: #f7f7f7;
+}
+
+.team-title {
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.team-member {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.team-member img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.team-member h5 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.team-member p {
+    font-size: 1em;
+    color: #666;
+}
+
+.reviews {
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.review-text {
+    font-size: 1em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.reviewer-name {
+    font-size: 0.9em;
+    color: #888;
+}
+
+#contact {
+    margin: 5rem;
+}
+
+.footer-list {
+    list-style: none;
+}
+
+.footer-list a {
+    color: #000;
+    text-decoration: none;
+}
+
+.proone {
+    background-image: url("/DestinyDeveloper/Images/propertyone.jpg");
+    height: 70vh;
+    width: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.protwo {
+    background-color: #007bff;
+    width: 80%;
+    height: 40vh;
+}
+
+#property img {
+    width: 100%;
+    height: 80vh;
+    /* margin-top: 2.5rem; */
+    border-radius: 0;
+    padding: 5rem;
+    margin-left: 0;
+}
+
+#property #cont {
+    width: 50%;
+    height: auto;
+    margin-top: 5rem;
+}
+
+#prorow {
+    margin-top: 5rem;
+    border: 1px solid beige;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+#hori {
+    color: darkgray;
+    margin: 1rem 0 1rem 0;
+}
+
+#btn {
+    background-color: gray;
+}
+
+#btn:hover {
+    background-color: #000000;
+}
